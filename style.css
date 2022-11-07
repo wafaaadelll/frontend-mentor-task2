@@ -1,0 +1,312 @@
+.font {
+  font-size: 50px;
+  color: #26baa4;
+}
+
+* {
+  font-family: 'Bai Jamjuree';
+}
+
+p {
+  color: #9fabb2;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #5b6971;
+}
+
+a:hover {
+  color: #26baa4;
+  font-weight: bold;
+}
+
+header {
+  background-image: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header div:nth-of-type(1) button {
+  background-color: #26baa4;
+  color: #fafafa;
+  /* -webkit-animation: anim5 5s ease 0s 1 normal forwards;
+          animation: anim5 5s ease 0s 1 normal forwards; */
+}
+
+header div:nth-of-type(2) button {
+  background-color: #6173ff;
+  color: #fafafa;
+  /* -webkit-animation: anim4 5s ease 0s 1 normal forwards;
+          animation: anim4 5s ease 0s 1 normal forwards; */
+}
+
+header img {
+  /* -webkit-animation: anim3 5s ease 0s infinite normal forwards;
+          animation: anim3 5s ease 0s infinite normal forwards; */
+}
+
+@-webkit-keyframes anim5 {
+  0% {
+    opacity: 0;
+    /* -webkit-transform: translateX(-250px);
+            transform: translateX(-250px); */
+  }
+  100% {
+    opacity: 1;
+    /* -webkit-transform: translateX(0);
+            transform: translateX(0); */
+  }
+}
+
+/* @keyframes anim5 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes anim4 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(250px);
+            transform: translateX(250px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes anim4 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(250px);
+            transform: translateX(250px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes anim3 {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+} */
+
+/* @keyframes anim3 {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+} */
+
+/* .sec3 img {
+  -webkit-animation: anim1 4s ease 0s infinite normal forwards;
+          animation: anim1 4s ease 0s infinite normal forwards;
+}
+
+.sec3 img .tex {
+  -webkit-animation: anim5 10s ease 0s 1 normal forwards;
+          animation: anim5 10s ease 0s 1 normal forwards;
+} */
+
+/* @-webkit-keyframes anim1 {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+            transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+            transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+            transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+            transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+            transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+@keyframes anim1 {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+            transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+            transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+            transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+            transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+            transform: translateX(-6px) rotate(-1.2deg);
+  }
+} */
+
+.sec4 img {
+  -webkit-animation: anim2 10s ease 0s infinite normal forwards;
+          animation: anim2 10s ease 0s infinite normal forwards;
+}
+
+/* @-webkit-keyframes anim2 {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes anim2 {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+} */
+
+#slider ul {
+  list-style-type: none;
+}
+
+#slider li {
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#slider li:hover {
+  opacity: 1;
+}
+
+.sec1 div:nth-of-type(1) button {
+  background-color: #26baa4;
+  color: #fafafa;
+  /* -webkit-animation: anim5 15s ease 20s 1 normal forwards;
+          animation: anim5 15s ease 20s 1 normal forwards; */
+}
+
+.sec1 div:nth-of-type(2) button {
+  background-color: #6173ff;
+  color: #fafafa;
+  /* -webkit-animation: anim4 15s ease 20s 1 normal forwards;
+          animation: anim4 15s ease 20s 1 normal forwards; */
+}
+
+.c {
+  background-image: url("images/n.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  background-attachment: fixed;
+}
+
+.sec6 .open-button {
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  bottom: 23px;
+  right: 15px;
+}
+
+.sec6 .chat-popup {
+  display: none;
+  bottom: 0;
+  right: 0px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.sec7 {
+  background-color: #6173ff;
+  color: #fafafa;
+  font-size: 50px;
+}
+
+.sec7 span {
+  font-size: 50px;
+}
+
+@media (max-width: 377px) {
+  .sec7 span {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 768px) {
+  .sec7 span {
+    font-size: 25px;
+  }
+}
+
+.b1 {
+  background-color: #26baa4;
+  color: #fafafa;
+}
+
+.b2 {
+  background-color: #6173ff;
+  color: #fafafa;
+}
+/*# sourceMappingURL=style.css.map */
